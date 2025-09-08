@@ -5,29 +5,29 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const portfolioImages = {
   Bridal: [
-    { src: 'https://picsum.photos/seed/bridal1/600/800', hint: 'bridal makeup' },
-    { src: 'https://picsum.photos/seed/bridal2/800/600', hint: 'bridal makeup' },
-    { src: 'https://picsum.photos/seed/bridal3/600/900', hint: 'bridal makeup' },
-    { src: 'https://picsum.photos/seed/bridal4/700/700', hint: 'bridal makeup' },
-    { src: 'https://picsum.photos/seed/bridal5/600/800', hint: 'bridal makeup' },
-    { src: 'https://picsum.photos/seed/bridal6/900/600', hint: 'bridal makeup' },
+    { src: '/images/bridal-1.jpg', hint: 'bridal makeup', width: 600, height: 800 },
+    { src: '/images/bridal-2.jpg', hint: 'bridal makeup', width: 800, height: 600 },
+    { src: '/images/bridal-3.jpg', hint: 'bridal makeup', width: 600, height: 900 },
+    { src: '/images/bridal-4.jpg', hint: 'bridal makeup', width: 700, height: 700 },
+    { src: '/images/bridal-5.jpg', hint: 'bridal makeup', width: 600, height: 800 },
+    { src: '/images/bridal-6.jpg', hint: 'bridal makeup', width: 900, height: 600 },
   ],
   Editorial: [
-    { src: 'https://picsum.photos/seed/editorial1/700/800', hint: 'editorial fashion' },
-    { src: 'https://picsum.photos/seed/editorial2/800/700', hint: 'editorial fashion' },
-    { src: 'https://picsum.photos/seed/editorial3/600/800', hint: 'editorial fashion' },
-    { src: 'https://picsum.photos/seed/editorial4/800/600', hint: 'editorial fashion' },
+    { src: '/images/editorial-1.jpg', hint: 'editorial fashion', width: 700, height: 800 },
+    { src: '/images/editorial-2.jpg', hint: 'editorial fashion', width: 800, height: 700 },
+    { src: '/images/editorial-3.jpg', hint: 'editorial fashion', width: 600, height: 800 },
+    { src: '/images/editorial-4.jpg', hint: 'editorial fashion', width: 800, height: 600 },
   ],
   Runway: [
-    { src: 'https://picsum.photos/seed/runway1/600/900', hint: 'runway model' },
-    { src: 'https://picsum.photos/seed/runway2/900/600', hint: 'runway model' },
-    { src: 'https://picsum.photos/seed/runway3/600/800', hint: 'runway model' },
-    { src: 'https://picsum.photos/seed/runway4/800/800', hint: 'runway model' },
+    { src: '/images/runway-1.jpg', hint: 'runway model', width: 600, height: 900 },
+    { src: '/images/runway-2.jpg', hint: 'runway model', width: 900, height: 600 },
+    { src: '/images/runway-3.jpg', hint: 'runway model', width: 600, height: 800 },
+    { src: '/images/runway-4.jpg', hint: 'runway model', width: 800, height: 800 },
   ],
   Competitions: [
-    { src: 'https://picsum.photos/seed/comp1/800/600', hint: 'fashion competition' },
-    { src: 'https://picsum.photos/seed/comp2/600/800', hint: 'fashion competition' },
-    { src: 'https://picsum.photos/seed/comp3/700/800', hint: 'fashion competition' },
+    { src: '/images/competitions-1.jpg', hint: 'fashion competition', width: 800, height: 600 },
+    { src: '/images/competitions-2.jpg', hint: 'fashion competition', width: 600, height: 800 },
+    { src: '/images/competitions-3.jpg', hint: 'fashion competition', width: 700, height: 800 },
   ],
 };
 
@@ -55,8 +55,8 @@ export function PortfolioSection() {
                     <Image
                       src={image.src}
                       alt={`${category} makeup ${idx + 1}`}
-                      width={800}
-                      height={600}
+                      width={image.width}
+                      height={image.height}
                       className="w-full h-auto object-cover transition-transform duration-300 ease-in-out hover:scale-110"
                       data-ai-hint={image.hint}
                     />
