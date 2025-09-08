@@ -11,7 +11,7 @@ export default {
     extend: {
       fontFamily: {
         body: ['Belleza', 'sans-serif'],
-        headline: ['Belleza', 'sans-serif'],
+        headline: ['Playfair Display', 'serif'],
         code: ['monospace'],
       },
       colors: {
