@@ -16,7 +16,7 @@ export function AboutSection() {
             <Card className="overflow-hidden shadow-xl rounded-lg">
               <CardContent className="p-0">
                 <Image
-                  src="/images/sidra-portrait.jpg"
+                  src="/images/2.jpeg"
                   alt="Sidra, the makeup artist"
                   width={600}
                   height={700}

@@ -6,7 +6,7 @@ export function HeroSection() {
   return (
     <section id="home" className="relative h-screen w-full">
       <Image
-        src="https://picsum.photos/1920/1080"
+        src="/images/1.jpeg"
         alt="A model with elegant makeup"
         fill
         className="object-cover"

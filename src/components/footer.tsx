@@ -1,5 +1,6 @@
-import { Sparkles, Instagram, Facebook, Youtube } from 'lucide-react';
+import { Instagram, Facebook, Youtube } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const socialLinks = [
   { platform: "Instagram", url: "https://www.instagram.com/aurabysidra", icon: Instagram },
@@ -13,7 +14,7 @@ export function Footer() {
       <div className="container max-w-screen-2xl py-8">
         <div className="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
           <div className="flex items-center space-x-2">
-            <Sparkles className="h-6 w-6 text-secondary" />
+            <Image src="/images/logo.png" alt="Aura by Sidra logo" width={32} height={32} />
             <span className="font-bold font-headline text-lg text-primary">Aura by Sidra</span>
           </div>
           <p className="text-center text-sm text-muted-foreground">

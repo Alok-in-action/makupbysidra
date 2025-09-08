@@ -2,9 +2,10 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { Menu, Sparkles } from "lucide-react";
+import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import Image from "next/image";
 
 const navLinks = [
   { name: "Home", href: "#home" },
@@ -23,7 +24,7 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-14 max-w-screen-2xl items-center justify-between">
         <Link href="#home" className="flex items-center space-x-2">
-          <Sparkles className="h-6 w-6 text-secondary" />
+          <Image src="/images/logo.png" alt="Aura by Sidra logo" width={32} height={32} />
           <span className="font-bold font-headline text-lg text-primary">Aura by Sidra</span>
         </Link>
 
@@ -50,7 +51,7 @@ export function Header() {
             <SheetContent side="right">
               <div className="flex flex-col space-y-6 p-6">
                 <Link href="#home" className="flex items-center space-x-2" onClick={() => setIsOpen(false)}>
-                  <Sparkles className="h-6 w-6 text-secondary" />
+                  <Image src="/images/logo.png" alt="Aura by Sidra logo" width={32} height={32} />
                   <span className="font-bold font-headline text-lg text-primary">Aura by Sidra</span>
                 </Link>
                 <nav className="flex flex-col space-y-4">

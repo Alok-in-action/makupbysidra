@@ -5,29 +5,22 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const portfolioImages = {
   Bridal: [
-    { src: '/images/bridal-1.jpg', hint: 'bridal makeup', width: 600, height: 800 },
-    { src: '/images/bridal-2.jpg', hint: 'bridal makeup', width: 800, height: 600 },
-    { src: '/images/bridal-3.jpg', hint: 'bridal makeup', width: 600, height: 900 },
-    { src: '/images/bridal-4.jpg', hint: 'bridal makeup', width: 700, height: 700 },
-    { src: '/images/bridal-5.jpg', hint: 'bridal makeup', width: 600, height: 800 },
-    { src: '/images/bridal-6.jpg', hint: 'bridal makeup', width: 900, height: 600 },
+    { src: '/images/3.jpeg', hint: 'bridal makeup', width: 600, height: 800 },
+    { src: '/images/4.jpeg', hint: 'bridal makeup', width: 800, height: 600 },
+    { src: '/images/5.jpeg', hint: 'bridal makeup', width: 600, height: 900 },
   ],
   Editorial: [
-    { src: '/images/editorial-1.jpg', hint: 'editorial fashion', width: 700, height: 800 },
-    { src: '/images/editorial-2.jpg', hint: 'editorial fashion', width: 800, height: 700 },
-    { src: '/images/editorial-3.jpg', hint: 'editorial fashion', width: 600, height: 800 },
-    { src: '/images/editorial-4.jpg', hint: 'editorial fashion', width: 800, height: 600 },
+    { src: '/images/6.jpeg', hint: 'editorial fashion', width: 700, height: 800 },
+    { src: '/images/7.jpeg', hint: 'editorial fashion', width: 800, height: 700 },
+    { src: '/images/8.jpeg', hint: 'editorial fashion', width: 600, height: 800 },
   ],
   Runway: [
-    { src: '/images/runway-1.jpg', hint: 'runway model', width: 600, height: 900 },
-    { src: '/images/runway-2.jpg', hint: 'runway model', width: 900, height: 600 },
-    { src: '/images/runway-3.jpg', hint: 'runway model', width: 600, height: 800 },
-    { src: '/images/runway-4.jpg', hint: 'runway model', width: 800, height: 800 },
+    { src: '/images/9.jpeg', hint: 'runway model', width: 600, height: 900 },
+    { src: '/images/10.jpeg', hint: 'runway model', width: 900, height: 600 },
   ],
   Competitions: [
-    { src: '/images/competitions-1.jpg', hint: 'fashion competition', width: 800, height: 600 },
-    { src: '/images/competitions-2.jpg', hint: 'fashion competition', width: 600, height: 800 },
-    { src: '/images/competitions-3.jpg', hint: 'fashion competition', width: 700, height: 800 },
+    { src: '/images/11.jpeg', hint: 'fashion competition', width: 800, height: 600 },
+    { src: '/images/12.jpeg', hint: 'fashion competition', width: 600, height: 800 },
   ],
 };
 
