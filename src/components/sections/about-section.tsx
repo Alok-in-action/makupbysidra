@@ -16,12 +16,12 @@ export function AboutSection() {
             <Card className="overflow-hidden shadow-xl rounded-lg">
               <CardContent className="p-0">
                 <Image
-                  src="https://picsum.photos/600/700"
+                  src="/images/sidra-portrait.jpg"
                   alt="Sidra, the makeup artist"
                   width={600}
                   height={700}
                   className="w-full h-auto object-cover"
-                  data-ai-hint="makeup artist portrait"
+                  data-ai-hint="portrait woman"
                 />
               </CardContent>
             </Card>
