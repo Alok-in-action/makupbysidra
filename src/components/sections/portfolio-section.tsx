@@ -8,19 +8,26 @@ const portfolioImages = {
     { src: '/images/3.jpeg', hint: 'bridal makeup', width: 600, height: 800 },
     { src: '/images/4.jpeg', hint: 'bridal makeup', width: 800, height: 600 },
     { src: '/images/5.jpeg', hint: 'bridal makeup', width: 600, height: 900 },
+    { src: '/images/14.jpeg', hint: 'bridal makeup', width: 600, height: 800 },
+    { src: '/images/15.jpeg', hint: 'bridal makeup', width: 800, height: 600 },
   ],
   Editorial: [
     { src: '/images/6.jpeg', hint: 'editorial fashion', width: 700, height: 800 },
     { src: '/images/7.jpeg', hint: 'editorial fashion', width: 800, height: 700 },
     { src: '/images/8.jpeg', hint: 'editorial fashion', width: 600, height: 800 },
+    { src: '/images/16.jpeg', hint: 'editorial fashion', width: 700, height: 800 },
+    { src: '/images/17.jpeg', hint: 'editorial fashion', width: 800, height: 700 },
   ],
   Runway: [
     { src: '/images/9.jpeg', hint: 'runway model', width: 600, height: 900 },
     { src: '/images/10.jpeg', hint: 'runway model', width: 900, height: 600 },
+    { src: '/images/18.jpeg', hint: 'runway model', width: 600, height: 900 },
   ],
   Competitions: [
     { src: '/images/11.jpeg', hint: 'fashion competition', width: 800, height: 600 },
     { src: '/images/12.jpeg', hint: 'fashion competition', width: 600, height: 800 },
+    { src: '/images/19.jpeg', hint: 'fashion competition', width: 800, height: 600 },
+    { src: '/images/20.jpeg', hint: 'fashion competition', width: 600, height: 800 },
   ],
 };
 
