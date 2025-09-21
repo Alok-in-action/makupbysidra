@@ -14,7 +14,7 @@ export function Footer() {
       <div className="container max-w-screen-2xl py-8">
         <div className="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
           <div className="flex items-center space-x-2">
-            <Image src="/images/newlogo.png" alt="Aura by Sidra logo" width={32} height={32} />
+            <Image src="/images/newlogo.png" alt="Aura by Sidra logo" width={32} height={32} className="rounded-full" />
             <span className="font-bold font-headline text-lg text-primary">Aura by Sidra</span>
           </div>
           <p className="text-center text-sm text-muted-foreground">

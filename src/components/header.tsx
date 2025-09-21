@@ -24,7 +24,7 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-20 max-w-screen-2xl items-center justify-between">
         <Link href="#home" className="flex items-center space-x-4">
-          <Image src="/images/newlogo.png" alt="Aura by Sidra logo" width={48} height={48} />
+          <Image src="/images/newlogo.png" alt="Aura by Sidra logo" width={48} height={48} className="rounded-full" />
           <span className="font-bold font-headline text-2xl text-primary">Aura by Sidra</span>
         </Link>
 
@@ -51,7 +51,7 @@ export function Header() {
             <SheetContent side="right">
               <div className="flex flex-col space-y-6 p-6">
                 <Link href="#home" className="flex items-center space-x-4" onClick={() => setIsOpen(false)}>
-                  <Image src="/images/newlogo.png" alt="Aura by Sidra logo" width={48} height={48} />
+                  <Image src="/images/newlogo.png" alt="Aura by Sidra logo" width={48} height={48} className="rounded-full" />
                   <span className="font-bold font-headline text-2xl text-primary">Aura by Sidra</span>
                 </Link>
                 <nav className="flex flex-col space-y-4">
