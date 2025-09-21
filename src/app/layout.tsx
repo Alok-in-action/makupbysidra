@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'Aura by Sidra – Highlights Elegance and Charm',
+  title: 'Makup by Sidra – Highlights Elegance and Charm',
   description:
     'A premium makeup artist studio specializing in beauty for models, bridal shoots, ramp walk, fashion shows, and competitions.',
 };
