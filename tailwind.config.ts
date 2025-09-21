@@ -12,6 +12,7 @@ export default {
       fontFamily: {
         body: ['Belleza', 'sans-serif'],
         headline: ['Playfair Display', 'serif'],
+        brand: ['Great Vibes', 'cursive'],
         code: ['monospace'],
       },
       colors: {

@@ -25,7 +25,7 @@ export function Header() {
       <div className="container flex h-20 max-w-screen-2xl items-center justify-between">
         <Link href="#home" className="flex items-center space-x-4">
           <Image src="/images/newlogo.png" alt="Makup by Sidra logo" width={48} height={48} className="rounded-full" />
-          <span className="font-bold font-headline text-2xl text-primary">Makup by Sidra</span>
+          <span className="font-brand text-4xl" style={{color: "#C2185B"}}>Makeup by Sidra</span>
         </Link>
 
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
@@ -52,7 +52,7 @@ export function Header() {
               <div className="flex flex-col space-y-6 p-6">
                 <Link href="#home" className="flex items-center space-x-4" onClick={() => setIsOpen(false)}>
                   <Image src="/images/newlogo.png" alt="Makup by Sidra logo" width={48} height={48} className="rounded-full" />
-                  <span className="font-bold font-headline text-2xl text-primary">Makup by Sidra</span>
+                  <span className="font-brand text-4xl" style={{color: "#C2185B"}}>Makeup by Sidra</span>
                 </Link>
                 <nav className="flex flex-col space-y-4">
                   {navLinks.map((link) => (
